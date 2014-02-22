@@ -1,7 +1,7 @@
 src/*.exe
-src/bitcoin
-src/bitcoind
-src/test_bitcoin
+src/mortgagecoin
+src/mortgagecoind
+src/test_mortgagecoin
 .*.swp
 *.*~*
 *.bak
@@ -9,17 +9,17 @@ src/test_bitcoin
 *.orig
 *.o
 *.patch
-.bitcoin
+.mortgagecoin
 
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-bitcoin-qt
-Bitcoin-Qt.app
+mortgagecoin-qt
+Mortgagecoin-Qt.app
 
 # Unit-tests
 Makefile.test
-bitcoin-qt_test
+mortgagecoin-qt_test
 
 # Resources cpp
 qrc_*.cpp
